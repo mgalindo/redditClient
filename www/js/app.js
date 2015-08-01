@@ -14,7 +14,7 @@
 
       });
 
-    $scope.loadOlderStories = functio() {
+    $scope.loadOlderStories = function() {
       var params = {};
       
       $http.get('http://www.reddit.com/r/Android/new/.json', {params: params})
